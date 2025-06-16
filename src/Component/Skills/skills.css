@@ -1,0 +1,75 @@
+#diskils {
+    text-align: center;
+    padding: 50px;
+    background-color:black;
+    border-radius: 10px;
+   
+    margin: 0 auto;
+  }
+  
+  #diskils h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  #diskils p {
+    font-size: 1.1rem;
+    color:white;
+    width: 60%;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+  }
+  
+  #centerdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #cdiv1 {
+    width: 40%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #cdiv1 h1 {
+    font-size: 1.5rem;
+    color: #222;
+  }
+  
+  #cdiv1 h5 {
+    font-size: 1.1rem;
+    color: #444;
+    margin: 10px 0;
+  }
+  
+  #cdiv2 {
+    width: 55%;
+    padding: 20px;
+  }
+  
+  .progress-container {
+    margin-bottom: 15px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 3px;
+  }
+  
+  .progress-bar div {
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
