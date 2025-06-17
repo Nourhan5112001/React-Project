@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { MdOutlineFavoriteBorder } from "react-icons/md";
 import { useSelector } from 'react-redux';
 import { authcontext } from '../../Context/auth';
-import logo from '../../assets/logo.jpg'; // تأكد من وجود ملف الشعار في المسار الصحيح
+import logo from '../../assets/logo.jpg'; 
 
 export default function Navbar({ onSearch }) {
   const favoritesCount = useSelector(state => state.favorites.favorites.length);
@@ -39,7 +39,7 @@ export default function Navbar({ onSearch }) {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link text-white" to="/">Home</Link>
+              <Link className="nav-link text-white" to="/">About Us</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link text-white" to="/movies">Movies</Link>
